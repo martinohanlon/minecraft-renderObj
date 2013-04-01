@@ -7,6 +7,8 @@ import minecraft.minecraft as minecraft
 import minecraft.block as block
 #import time, so delays can be used
 import time
+#import datetime, to get the time!
+import datetime
 
 # return maximum of 2 values
 def MAX(a,b):
@@ -25,76 +27,83 @@ def point3d(mc, x, y, z, blockType):
 
 # draw a line in 3d space
 def line3d(mc, x1, y1, z1, x2, y2, z2, blockType):
-    dx = x2 - x1
-    dy = y2 - y1
-    dz = z2 - z1
 
-    ax = abs(dx) << 1
-    ay = abs(dy) << 1
-    az = abs(dz) << 1
+    # if the 2 points are the same, draw a single block
+    if (x1 == x2 and y1 == y2 and z1 == z2):
+        mc.setBlock(x1, y1, z1, blockType)
+    # else draw a line in 3d space
+    else:
+    
+        dx = x2 - x1
+        dy = y2 - y1
+        dz = z2 - z1
 
-    sx = ZSGN(dx)
-    sy = ZSGN(dy)
-    sz = ZSGN(dz)
+        ax = abs(dx) << 1
+        ay = abs(dy) << 1
+        az = abs(dz) << 1
 
-    x = x1
-    y = y1
-    z = z1
+        sx = ZSGN(dx)
+        sy = ZSGN(dy)
+        sz = ZSGN(dz)
 
-    # x dominant
-    if (ax >= MAX(ay, az)):
-        yd = ay - (ax >> 1)
-        zd = az - (ax >> 1)
-        loop = True
-        while(loop):
-            point3d(mc, x, y, z, blockType)
-            if (x == x2):
-                loop = False
-            if (yd >= 0):
-                y += sy
-                yd -= ax
-            if (zd >= 0):
-                z += sz
-                zd -= ax
-            x += sx
-            yd += ay
-            zd += az
-    # y dominant
-    elif (ay >= MAX(ax, az)):
-        xd = ax - (ay >> 1)
-        zd = az - (ay >> 1)
-        loop = True
-        while(loop):
-            point3d(mc, x, y, z, blockType)
-            if (y == y2):
-                loop=False
-            if (xd >= 0):
+        x = x1
+        y = y1
+        z = z1
+
+        # x dominant
+        if (ax >= MAX(ay, az)):
+            yd = ay - (ax >> 1)
+            zd = az - (ax >> 1)
+            loop = True
+            while(loop):
+                point3d(mc, x, y, z, blockType)
+                if (x == x2):
+                    loop = False
+                if (yd >= 0):
+                    y += sy
+                    yd -= ax
+                if (zd >= 0):
+                    z += sz
+                    zd -= ax
                 x += sx
-                xd -= ay
-            if (zd >= 0):
-                z += sz
-                zd -= ay
-            y += sy
-            xd += ax
-            zd += az
-    # z dominant
-    elif(az >= MAX(ax, ay)):
-        xd = ax - (az >> 1)
-        yd = ay - (az >> 1)
-        loop = True
-        while(loop):
-            point3d(mc, x, y, z, blockType)
-            if (z == z2):
-                loop=False
-            if (xd >= 0):
-                x += sx
-                xd -= az
-            if (yd >= 0):
+                yd += ay
+                zd += az
+        # y dominant
+        elif (ay >= MAX(ax, az)):
+            xd = ax - (ay >> 1)
+            zd = az - (ay >> 1)
+            loop = True
+            while(loop):
+                point3d(mc, x, y, z, blockType)
+                if (y == y2):
+                    loop=False
+                if (xd >= 0):
+                    x += sx
+                    xd -= ay
+                if (zd >= 0):
+                    z += sz
+                    zd -= ay
                 y += sy
-                yd -= az
-            z += sz
-            xd += ax
-            yd += ay
+                xd += ax
+                zd += az
+        # z dominant
+        elif(az >= MAX(ax, ay)):
+            xd = ax - (az >> 1)
+            yd = ay - (az >> 1)
+            loop = True
+            while(loop):
+                point3d(mc, x, y, z, blockType)
+                if (z == z2):
+                    loop=False
+                if (xd >= 0):
+                    x += sx
+                    xd -= az
+                if (yd >= 0):
+                    y += sy
+                    yd -= az
+                z += sz
+                xd += ax
+                yd += ay
 
 # load obj into lists
 def load_obj(filename) :
@@ -147,7 +156,17 @@ def getVertexXYZ(vertexLine, scale, startCoord, swapYZ):
 # main program
 if __name__ == "__main__":
 
+    print datetime.datetime.now()
 
+    #Connect to minecraft by creating the minecraft object
+    # - minecraft needs to be running and in a game
+    mc = minecraft.Minecraft.create()
+
+    mc.player.setPos(-131,25,98)
+    
+    #Post a message to the minecraft chat window 
+    mc.postToChat("Hi, Minecraft 3d model maker, www.stuffaboutcode.com")
+    
     #Load objfile and set constants
 
     # COORDSSCALE = factor to scale the co-ords by
@@ -173,13 +192,13 @@ if __name__ == "__main__":
     #vertices,textures,normals,faces = load_obj("shuttle.obj")
 
     # Shyscraper
-    COORDSSCALE = 1.4
-    STARTCOORD = minecraft.Vec3(0,10,15)
-    CLEARAREA1 = minecraft.Vec3(-30, -3, -15)
-    CLEARAREA2 = minecraft.Vec3(30, 65, 35)
-    BLOCKTYPE = block.IRON_BLOCK
-    SWAPYZ = False
-    vertices,textures,normals,faces = load_obj("skyscraper.obj")
+    #COORDSSCALE = 1.4
+    #STARTCOORD = minecraft.Vec3(0,10,15)
+    #CLEARAREA1 = minecraft.Vec3(-30, -3, -15)
+    #CLEARAREA2 = minecraft.Vec3(30, 65, 35)
+    #BLOCKTYPE = block.IRON_BLOCK
+    #SWAPYZ = False
+    #vertices,textures,normals,faces = load_obj("skyscraper.obj")
 
     # Head
     #COORDSSCALE = 3
@@ -198,17 +217,21 @@ if __name__ == "__main__":
     #BLOCKTYPE = block.WOOD_PLANKS
     #SWAPYZ = False
     #vertices,textures,normals,faces = load_obj("cessna.obj")
-    
-    #Connect to minecraft by creating the minecraft object
-    # - minecraft needs to be running and in a game
-    mc = minecraft.Minecraft.create()
 
-    #Post a message to the minecraft chat window 
-    mc.postToChat("Hi, Minecraft 3d model maker, www.stuffaboutcode.com")
+    # New York
+    COORDSSCALE = 0.1
+    STARTCOORD = minecraft.Vec3(-185, 0, 135)
+    CLEARAREA1 = minecraft.Vec3(-130, 0, -130)
+    CLEARAREA2 = minecraft.Vec3(130, 65, 130)
+    BLOCKTYPE = block.IRON_BLOCK
+    SWAPYZ = False
+    vertices,textures,normals,faces = load_obj("NY_LIL.obj")
+
+    print "obj file loaded"
     
     # clear a suitably large area
     mc.setBlocks(CLEARAREA1.x, CLEARAREA1.y, CLEARAREA1.z, CLEARAREA2.x, CLEARAREA2.y, CLEARAREA2.z, block.AIR)
-    time.sleep(3)
+    time.sleep(10)
 
     # loop through faces
     for face in faces:
@@ -235,3 +258,5 @@ if __name__ == "__main__":
         line3d(mc, lastVertexX, lastVertexY, lastVertexZ, firstVertexX, firstVertexY, firstVertexZ, BLOCKTYPE)
 
     mc.postToChat("Model complete, www.stuffaboutcode.com")
+
+    print datetime.datetime.now()
