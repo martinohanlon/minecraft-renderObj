@@ -1,0 +1,354 @@
+# Alias Wavefront MTL File Exported from SketchUp
+# with OBJexporter (c) 2013 TIG
+# Made for 'City_Ground-Notts.obj'
+
+newmtl Default_Material
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl Black
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl Asphalt_Old
+Ka 0.607843 0.584314 0.564706
+Kd 0.607843 0.584314 0.564706
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd City_Ground-Notts_Textures/Asphalt_Old.PNG
+
+newmtl Material2
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl GhostWhite
+Ka 0.972549 0.972549 1
+Kd 0.972549 0.972549 1
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl Red
+Ka 1 0 0
+Kd 1 0 0
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl Brick_Flemish_Bond
+Ka 0.6 0.466667 0.4
+Kd 0.6 0.466667 0.4
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd City_Ground-Notts_Textures/Brick_Flemish_Bond.PNG
+
+newmtl Material3
+Ka 0.756863 0.0784314 0.133333
+Kd 0.756863 0.0784314 0.133333
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd City_Ground-Notts_Textures/Material3.PNG
+
+newmtl Material20
+Ka 0.603922 0.603922 0.603922
+Kd 0.603922 0.603922 0.603922
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd City_Ground-Notts_Textures/Material20.PNG
+
+newmtl Concrete_Brushed
+Ka 0.752941 0.752941 0.752941
+Kd 0.752941 0.752941 0.752941
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd City_Ground-Notts_Textures/Concrete_Brushed.PNG
+
+newmtl Material4
+Ka 0.858824 0.858824 0.858824
+Kd 0.858824 0.858824 0.858824
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd City_Ground-Notts_Textures/Material4.PNG
+
+newmtl module_lat
+Ka 0.596078 0.564706 0.505882
+Kd 0.596078 0.564706 0.505882
+Ks 0.333 0.333 0.333
+Ns 0
+d 0.79
+Tr 0.79
+map_Kd City_Ground-Notts_Textures/module_lat.PNG
+
+newmtl Metal_Brushed
+Ka 0.552941 0.556863 0.564706
+Kd 0.552941 0.556863 0.564706
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd City_Ground-Notts_Textures/Metal_Brushed.PNG
+
+newmtl Roofing_Metal_Standing_Seam_Blue
+Ka 0.937255 0.937255 0.937255
+Kd 0.937255 0.937255 0.937255
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd City_Ground-Notts_Textures/Roofing_Metal_Standing_Seam_Blue.PNG
+
+newmtl Material7
+Ka 0.847059 0.847059 0.847059
+Kd 0.847059 0.847059 0.847059
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd City_Ground-Notts_Textures/Material7.PNG
+
+newmtl Material8
+Ka 0.603922 0.552941 0.45098
+Kd 0.603922 0.552941 0.45098
+Ks 0.333 0.333 0.333
+Ns 0
+d 0.79
+Tr 0.79
+map_Kd City_Ground-Notts_Textures/Material8.PNG
+
+newmtl Material9
+Ka 0.4 0.4 0.4
+Kd 0.4 0.4 0.4
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl Translucent_Glass_Safety
+Ka 0.486275 0.486275 0.486275
+Kd 0.486275 0.486275 0.486275
+Ks 0.333 0.333 0.333
+Ns 0
+d 0.88
+Tr 0.88
+map_Kd City_Ground-Notts_Textures/Translucent_Glass_Safety.PNG
+
+newmtl Translucent_Glass_Safety1
+Ka 0.482353 0.490196 0.494118
+Kd 0.482353 0.490196 0.494118
+Ks 0.333 0.333 0.333
+Ns 0
+d 0.9
+Tr 0.9
+map_Kd City_Ground-Notts_Textures/Translucent_Glass_Safety1.PNG
+
+newmtl White
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl Material10
+Ka 0.917647 0.917647 0.917647
+Kd 0.917647 0.917647 0.917647
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl Material12
+Ka 0.670588 0.470588 0.388235
+Kd 0.670588 0.470588 0.388235
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd City_Ground-Notts_Textures/Material12.PNG
+
+newmtl Material13
+Ka 0.776471 0.776471 0.776471
+Kd 0.776471 0.776471 0.776471
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl Material14
+Ka 0.431373 0.470588 0.486275
+Kd 0.431373 0.470588 0.486275
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd City_Ground-Notts_Textures/Material14.PNG
+
+newmtl Material15
+Ka 0.270588 0.282353 0.282353
+Kd 0.270588 0.282353 0.282353
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd City_Ground-Notts_Textures/Material15.PNG
+
+newmtl Material17
+Ka 0.666667 0.54902 0.352941
+Kd 0.666667 0.54902 0.352941
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd City_Ground-Notts_Textures/Material17.PNG
+
+newmtl Metal_Brushed1
+Ka 0.560784 0.560784 0.560784
+Kd 0.560784 0.560784 0.560784
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd City_Ground-Notts_Textures/Metal_Brushed1.PNG
+
+newmtl Material18
+Ka 0.603922 0.552941 0.45098
+Kd 0.603922 0.552941 0.45098
+Ks 0.333 0.333 0.333
+Ns 0
+d 0.95
+Tr 0.95
+map_Kd City_Ground-Notts_Textures/Material18.PNG
+
+newmtl Rouge3141
+Ka 1 0 0
+Kd 1 0 0
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl Material21
+Ka 0.686275 0.686275 0.686275
+Kd 0.686275 0.686275 0.686275
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd City_Ground-Notts_Textures/Material21.PNG
+
+newmtl roof
+Ka 0.458824 0.431373 0.360784
+Kd 0.458824 0.431373 0.360784
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd City_Ground-Notts_Textures/roof.PNG
+
+newmtl Material22
+Ka 0.52549 0.52549 0.52549
+Kd 0.52549 0.52549 0.52549
+Ks 0.333 0.333 0.333
+Ns 0
+d 0.79
+Tr 0.79
+map_Kd City_Ground-Notts_Textures/Material22.PNG
+
+newmtl Material23
+Ka 0.658824 0.631373 0.615686
+Kd 0.658824 0.631373 0.615686
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd City_Ground-Notts_Textures/Material23.PNG
+
+newmtl Metal_Aluminum_Anodized
+Ka 0.533333 0.552941 0.576471
+Kd 0.533333 0.552941 0.576471
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd City_Ground-Notts_Textures/Metal_Aluminum_Anodized.PNG
+
+newmtl Material24
+Ka 0.972549 1 1
+Kd 0.972549 1 1
+Ks 0.333 0.333 0.333
+Ns 0
+d 0.52
+Tr 0.52
+map_Kd City_Ground-Notts_Textures/Material24.PNG
+
+newmtl Google_Earth_Snapshot1
+Ka 0.423529 0.423529 0.423529
+Kd 0.423529 0.423529 0.423529
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd City_Ground-Notts_Textures/Google_Earth_Snapshot1.PNG
+
+newmtl Material6
+Ka 0.976471 0 0
+Kd 0.976471 0 0
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd City_Ground-Notts_Textures/Material6.PNG
+
+newmtl goal_net1
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd City_Ground-Notts_Textures/goal_net1.PNG
+
+newmtl Safety_Glass2
+Ka 0.933333 0.956863 0.960784
+Kd 0.933333 0.956863 0.960784
+Ks 0.333 0.333 0.333
+Ns 0
+d 0.7
+Tr 0.7
+map_Kd City_Ground-Notts_Textures/Safety_Glass2.PNG
+
+newmtl Material16
+Ka 0.309804 0.72549 0.0705882
+Kd 0.309804 0.72549 0.0705882
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+#EOF

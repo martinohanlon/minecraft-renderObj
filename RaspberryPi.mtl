@@ -1,0 +1,167 @@
+# Alias Wavefront MTL File Exported from SketchUp
+# with OBJexporter (c) 2013 TIG
+# Made for 'RaspberryPi.obj'
+
+newmtl Default_Material
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl Material1
+Ka 0.290196 0.313725 0.282353
+Kd 0.290196 0.313725 0.282353
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd RaspberryPi_Textures/Material1.PNG
+
+newmtl Goldenrod
+Ka 0.854902 0.647059 0.121569
+Kd 0.854902 0.647059 0.121569
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl 0136_Charcoal
+Ka 0.137255 0.137255 0.137255
+Kd 0.137255 0.137255 0.137255
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl Gray61
+Ka 0.313725 0.313725 0.313725
+Kd 0.313725 0.313725 0.313725
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl Charcoal
+Ka 0.137255 0.137255 0.137255
+Kd 0.137255 0.137255 0.137255
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl Color_002
+Ka 0.776471 0.776471 0.776471
+Kd 0.776471 0.776471 0.776471
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl Color_008
+Ka 0.976471 0.815686 0.2
+Kd 0.976471 0.815686 0.2
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl Plastic_Green
+Ka 0 0.501961 0
+Kd 0 0.501961 0
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl MB_Pastic_White
+Ka 0.968627 0.960784 0.933333
+Kd 0.968627 0.960784 0.933333
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl IO_Shiny
+Ka 0.886275 0.886275 0.886275
+Kd 0.886275 0.886275 0.886275
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl Material4
+Ka 0.0431373 0.243137 0.12549
+Kd 0.0431373 0.243137 0.12549
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl Gainsboro3
+Ka 0.384314 1 0.572549
+Kd 0.384314 1 0.572549
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl CorrogateShiny1
+Ka 0.756863 0.756863 0.756863
+Kd 0.756863 0.756863 0.756863
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd RaspberryPi_Textures/CorrogateShiny1.PNG
+
+newmtl Gold
+Ka 1 0.843137 0
+Kd 1 0.843137 0
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl 0129_WhiteSmoke
+Ka 0.960784 0.960784 0.960784
+Kd 0.960784 0.960784 0.960784
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl Color_005
+Ka 0.878431 0.878431 0.878431
+Kd 0.878431 0.878431 0.878431
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl USB_IO
+Ka 0.0588235 0.0745098 0.768627
+Kd 0.0588235 0.0745098 0.768627
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl _Metal
+Ka 0.756863 0.756863 0.756863
+Kd 0.756863 0.756863 0.756863
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl 0132_LightGray
+Ka 0.658824 0.658824 0.658824
+Kd 0.658824 0.658824 0.658824
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+#EOF
