@@ -1,3 +1,5 @@
+**This repository and project has now been archived and is no longer supported. The code will remain available for reference and information.**
+
 -------------------------------------------------------------------------------
 Minecraft - Render Obj 3D Model version 2
 Martin O'Hanlon (martin@ohanlonweb.com)
